@@ -1,5 +1,5 @@
 import datetime # for reading present date
-import time
+import time # for auto update
 import requests # for fetching data from web
 from plyer import notification # for notification on pc
 

@@ -1,0 +1,23 @@
+[[package]]
+category = "main"
+description = "Platform-independent wrapper for platform-dependent APIs"
+name = "plyer"
+optional = false
+python-versions = "*"
+version = "2.0.0"
+
+[package.extras]
+android = ["pyjnius"]
+dev = ["mock", "flake8"]
+ios = ["pyobjus"]
+macosx = ["pyobjus"]
+
+[metadata]
+content-hash = "8394b7d8880190bfb85c12a07f2d20cf7bf8b0f823fd38be074613b0e62fba86"
+python-versions = "^3.8"
+
+[metadata.files]
+plyer = [
+    {file = "plyer-2.0.0-py2.py3-none-any.whl", hash = "sha256:d62a1e68622042e6b9367ba429844e989ea7b13035fd1befe66f385aaaba6de1"},
+    {file = "plyer-2.0.0.tar.gz", hash = "sha256:8de38b17bc438df36eedeacd546cf05303ab871855af0669fc4e8df51f2adf94"},
+]
